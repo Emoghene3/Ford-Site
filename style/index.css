@@ -1,0 +1,120 @@
+nav{
+    border: 2px solid transparent;
+    display: flex;
+    padding: 0 10px;
+    align-items:baseline;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.548);
+    border-radius: 10px;
+}
+
+#logo{
+    width: 70px;
+    padding: 10px 10px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+    
+ul li{
+    list-style: none;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(192, 32, 32);
+    padding-left: 20px;
+    
+}
+
+nav ul li :hover{
+    color: brown;
+    border-bottom: 1px solid black;
+    
+}
+
+.login{
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background-color: black;
+    color: blueviolet;
+}
+
+img{
+    width: 30%;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif; 
+    color: black;
+    display: initial;
+}
+
+.para{color: whitesmoke;   
+}
+
+.title{
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(17, 4, 4, 0.648);
+    display: inherit;
+}
+
+.Father{
+  border: 2px solid black;
+  background-color: chocolate;
+  border-radius: 2px;
+ }
+
+ .first-son{
+     border: 3px solid wheat;
+     border-radius: 3px;
+     padding: 10px;
+     margin: 30px;
+     display: flex;
+ }
+ .second-son{
+     border: 3px solid wheat;
+     border-radius: 3px;
+     margin: 30px;
+     padding: 10px;
+     display: flex;
+ }
+
+ .third-son{
+     background-color: blue;
+     border: 1px solid rgba(65, 65, 192, 0.655);
+     border-radius: 5px;
+     margin: 15px 30px;
+     height: 25px;
+
+
+ }
+ .mother{
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 30px;
+    margin-left:  10px;
+    background-color: chocolate;
+}
+
+
+
+section{
+    display: flex;
+}
+
+body{
+    margin: 30px;
+}
+
+span{
+    background-color: brown;
+}
+
+
